@@ -1,5 +1,64 @@
-section{
-  text-align: center;
-  // background: image-url('bg.jpg')
+body{
+	text-align: center;
+	background: #fff;
+	color: #444;
+	font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+a, a:visited {
+    color: #888;
+    text-decoration: underline;
+}
+a:hover, 
+a:focus { color: #000; }
+
+h1 {
+    border-bottom: 2px solid #ddd;
+    color: #888;
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+.bungkus{
+	margin: 0 auto;
+	// min-width: 880px;
+	padding: 0 40px;
+	// width: 80%;
+}
+
+.glyph {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0 20px;
+    margin-bottom: 20px;
+  }
+
+  .preview-glyphs { vertical-align: bottom; } 
+
+  .preview-scale { 
+    color: #888;
+    font-size: 12px; 
+    margin-top: 5px;
+  }
+
+  .step {
+    display: inline-block;
+    line-height: 1;
+    width: 10%;
+  }
+
+.usage { margin-top: 10px;text-align: left; }
+
+.usage input {
+	font-family: monospace;
+	margin-right: 3px;
+	padding: 2px 5px;
+	text-align: center;
+	font-size: 10px;
+}
+
+.usage .point { width: 150px; }
+
+.usage .class { width: 250px; }
+
 
