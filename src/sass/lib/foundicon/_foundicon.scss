@@ -1,0 +1,26 @@
+/* 
+ * Foundation Icons v 3.0
+ * Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3
+ * MIT License
+ */
+
+@import "compass/css3";
+ 
+@include font-face("foundation-icons", font-files("foundation-icons.ttf", "foundation-icons.eot?#iefix","foundation-icons.woff","foundation-icons.svg#fontcustom"));
+
+// include size of webfont class
+@import "size";
+
+// include list of all found icon class prefix
+@import "list_font";
+
+// @font-face {
+//   font-family: "foundation-icons";
+//   src: url("../fonts/foundation-icons.eot");
+//   src: url("../fonts/foundation-icons.eot?#iefix") format("embedded-opentype"),
+//        url("../fonts/foundation-icons.woff") format("woff"),
+//        url("../fonts/foundation-icons.ttf") format("truetype"),
+//        url("../fonts/foundation-icons.svg#fontcustom") format("svg");
+//   font-weight: normal;
+//   font-style: normal;
+// }

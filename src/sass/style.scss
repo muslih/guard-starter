@@ -1,25 +1,29 @@
 
-// main
+// #main
 @import "compass/css3";
-@import "partials/variable";
-@import "partials/mixins";
-@import "partials/settings";
 
-// zeen grid
-@import "partials/zeen";
+// #include base file
+// - include normalize
+@import "base/normalize";
 
-// iclude general style
-// you can remove it, it just a sample file
+// #include library file
+// - include foundation web icon
+@import "lib/foundicon/foundicon";
+// - include zeen grid
+@import "lib/zeengrid/zeen";
+// - include zeen responsive grid(optional)
+@import "lib/zeengrid/zeen-resp";
+
+// #include helpers file
+// - include variables
+@import "helpers/variable";
+// - include mixins
+@import "helpers/mixins";
+
+// #include parials file
+// - include general style
 @import "partials/general";
-
-// include fontAwesome web icon
-@import "partials/general_zeenicons";
-
-// style pluginjs
-@import "partials/jsplugin";
-
-// include responsive file
-// you can modify any responsive style through this file
+// - include responsive style
 @import "partials/responsive";
 
 
