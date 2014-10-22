@@ -1,39 +1,25 @@
-/*******************************************************************************
 
-Title: Tuition Guru
-Date: 13 Januari 2013
-Author: Satu Media Telematika
-
-********************************************************************************
-
-	1  zeengrid
-	2  general
-	3  header
-	4  section
-	5  aside
-	6  footer
-	7  fontawesome
-	8  jspluginstyle
-
-*******************************************************************************/
 // main
 @import "compass/css3";
 @import "partials/variable";
 @import "partials/mixins";
 @import "partials/settings";
 
-//  zeen grid
+// zeen grid
 @import "partials/zeen";
 
-// style umum
+// iclude general style
+// you can remove it, it just a sample file
 @import "partials/general";
 
-// style untuk fontAwesome
+// include fontAwesome web icon
 @import "partials/general_zeenicons";
 
 // style pluginjs
 @import "partials/jsplugin";
 
+// include responsive file
+// you can modify any responsive style through this file
 @import "partials/responsive";
 
 
