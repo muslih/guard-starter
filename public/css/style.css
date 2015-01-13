@@ -228,7 +228,7 @@ table {
  */
 @font-face {
   font-family: "foundation-icons";
-  src: url('../fonts/foundation-icons.ttf?1421068363') format('truetype'), url('../fonts/foundation-icons.eot?&1421068363#iefix') format('embedded-opentype'), url('../fonts/foundation-icons.woff?1421068363') format('woff'), url('../fonts/foundation-icons.svg?1421068363#fontcustom') format('svg');
+  src: url('../fonts/foundation-icons.ttf?1377275155') format('truetype'), url('../fonts/foundation-icons.eot?&1377275155#iefix') format('embedded-opentype'), url('../fonts/foundation-icons.woff?1377275155') format('woff'), url('../fonts/foundation-icons.svg?1377275155#fontcustom') format('svg');
 }
 .step {
   display: inline-block;
@@ -1799,43 +1799,156 @@ img {
     margin-left: 0;
   }
 }
-#header {
-  border-top: solid 5px #1FACD7;
-}
-#header #logo {
-  float: left;
-}
-#header nav {
-  float: right;
-  padding: 30px 0;
-}
-#header nav ul {
-  margin: 0;
-  padding: 0;
-}
-#header nav li {
-  float: left;
-  list-style: none;
-}
-#header nav li a {
-  font-size: 14px;
-  padding: 5px 10px 30px 5px;
-  text-decoration: none;
+body {
+  text-align: center;
+  background: #fff;
   color: #444;
-  font-weight: 100;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
-  -webkit-transition-duration: 0.5s;
-  transition-duration: 0.5s;
-}
-#header nav li a.active {
-  border-bottom: solid 3px #444;
-}
-#header nav li a:hover {
-  color: #1FACD7;
+  font: 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#slide {
-  height: 400px;
-  overflow: hidden;
+a, a:visited {
+  color: #888;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus {
+  color: #000;
+}
+
+h1 {
+  border-bottom: 2px solid #ddd;
+  color: #888;
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.bungkus {
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.glyph {
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0 20px;
+  margin-bottom: 20px;
+}
+
+.preview-glyphs {
+  vertical-align: bottom;
+}
+
+.preview-scale {
+  color: #888;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.step {
+  display: inline-block;
+  line-height: 1;
+  width: 10%;
+}
+
+.usage {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.usage input {
+  font-family: monospace;
+  margin-right: 3px;
+  padding: 2px 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.usage .point {
+  width: 150px;
+}
+
+.usage .class {
+  width: 250px;
+}
+
+@media only screen and (max-width: 767px) {
+  #cariTutorLanding .loginform {
+    margin-top: 15px;
+  }
+  #cariTutorLanding .loginform input {
+    display: block;
+  }
+  #cariTutorLanding h3 span.tag {
+    display: none;
+  }
+
+  #headtop .cari input[type="search"] {
+    min-width: 10px !important;
+    max-width: 50px;
+  }
+
+  ul#menu {
+    display: none;
+  }
+
+  #header li {
+    float: none;
+  }
+  #header li a {
+    border-right: none;
+    border-bottom: solid 1px #a10000;
+  }
+  #header li ul {
+    display: block;
+    position: relative;
+    left: 0 !important;
+    top: 0 !important;
+  }
+  #header li ul li {
+    border-top: none;
+  }
+  #header li ul a {
+    padding-left: 15px !important;
+  }
+  #header li ul ul a {
+    padding-left: 20px !important;
+  }
+
+  #cariTutorLanding {
+    padding: 15px;
+  }
+
+  #cariTutorLanding .tab li {
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  a#respmenu {
+    border-right: none;
+    display: block !important;
+  }
+
+  section .article li .thumb {
+    display: none;
+  }
+
+  section .article li h4 a {
+    clear: both;
+    display: block;
+  }
+
+  .article li:first-child p {
+    float: left;
+  }
+
+  footer .kanan {
+    float: left;
+    padding: 0;
+  }
+  footer .kanan li a {
+    margin-left: 0 !important;
+    margin-right: 15px;
+  }
 }
