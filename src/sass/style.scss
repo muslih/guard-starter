@@ -5,14 +5,12 @@
 // #include base file
 // - include normalize
 @import "base/normalize";
-
+// #include foundation grid & ui
+@import "lib/foundation";
 // #include library file
 // - include foundation web icon
 @import "lib/foundicon/foundicon";
-// - include zeen grid
-@import "lib/zeengrid/zeen";
-// - include zeen responsive grid(optional)
-@import "lib/zeengrid/zeen-resp";
+
 
 // #include helpers file
 // - include variables
